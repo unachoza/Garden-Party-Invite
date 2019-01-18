@@ -1,26 +1,102 @@
+/* body{
+     background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547666442/iphoneX.png'); 
+
+}
+.phone-container{
+    height: 680px;
+    width: 375px;
+    margin-top: 50px;
+    margin-left: 500px;
+    position: absolute;
+}
+.centered-element {
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 0;
+    height: 700px;
+    
+  }
+  img{
+      visibility: visible;
+  }  */
+
+/* #hidden{
+    overflow: hidden;
+    }
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 270px;
+    position: absolute;
+    z-index: -1;
+} */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 707px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-
+p{
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+.size{
+    font-size: 35px;
+    /* font-family: 'Indie Flower', cursive; */
+}
     body{
-        color: grey;
+        color: white;
         background: url("https://res.cloudinary.com/dh41vh9dx/image/upload/v1547832923/blue1.jpg") no-repeat center center fixed; 
         background-color: black;
         background-size: 100%;
         animation-name: loop-background;
-        animation-duration: 12s;
+        animation-duration: 8s;
+        font-family: 'Cedarville Cursive', cursive;
         /* -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover; */
       }
       h1{
+          font-size: 50px;
+          margin-left: 30px;
           text-align: center;
+          font-family: 'Cedarville Cursive', cursive;
       }
       background-image {
           width: 100vw;
       }
+      .header{
+          display: flex;
+          align-items: center;
+      }
+      #title1{
+          visibility: hidden;
+      }
+      #title2{
+        visibility: hidden;
+    }
+    #title3{
+        visibility: hidden;
+    }
+    #title4{
+        visibility: hidden;
+    }
+    #title5{
+        visibility: hidden;
+    }
+    #title6{
+        visibility: hidden;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        /* display: flex; */
+        text-align: center;
+        margin-top: 10vh;
+    }
 }
 @keyframes loop-background { 
     0% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834889/purple.jpg'); } 
@@ -33,5 +109,5 @@
     70% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834893/red.jpg'); } 
     80% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834899/white.jpg'); } 
     90% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547832923/blue1.jpg'); }  
-    
+
 }
