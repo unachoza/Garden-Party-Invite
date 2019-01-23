@@ -5,16 +5,61 @@
     flex-direction: column;
     text-align: center;
     margin-top: 10vh;
-    /* width: 30vw; */
+    
     
 }
-/* .phone-container{
-    height: 680px;
-    width: 375px;
-    margin-top: 50px;
-    margin-left: 500px;
-    position: absolute;
-} */
+img{
+    visibility: hidden;
+    align-content: center;
+}
+.border {
+    background-color: black;
+    height: 550px;
+    width: 280px;
+    margin-top: -8px;
+    margin-left: 38.75vw;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    animation-name: loop-background;
+    animation-duration: 8s; 
+}
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    color: white
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    color: white
+}
+.size {
+    font-family: 'Cedarville Cursive', cursive;
+    color: white
+}
+
+.phone-container{
+    display: inline-block;
+    
+}
+#title1{
+    visibility: hidden;
+}
+#title2{
+  visibility: hidden;
+}
+#title3{
+  visibility: hidden;
+}
+#title4{
+  visibility: hidden;
+}
+#title5{
+  visibility: hidden;
+}
+#title6{
+  visibility: hidden;
+}
 
 /* .centered-element {
     
@@ -25,22 +70,9 @@
     height: 700px;
     
   }
-  img{
-      visibility: visible;
-  }   */
+  
 
-/* #hidden{
-    overflow: hidden;
-    }
-h1{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    margin-top: 90px;
-    margin-left: 270px;
-    position: absolute;
-    z-index: -1;
-} */
+ */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 560px) 
@@ -51,7 +83,6 @@ p{
 }
 .size{
     font-size: 35px;
-    /* font-family: 'Indie Flower', cursive; */
 }
     body{
         color: white;
@@ -106,7 +137,7 @@ p{
     }
 }
 @keyframes loop-background { 
-    0% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834889/purple.jpg'); } 
+    0% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834889/purple.jpg') ; } 
     10% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834889/purple.jpg'); } 
     /* 20% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834884/pink.jpg'); }  */
     30% { background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1547834880/peach.jpg'); } 
