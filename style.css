@@ -1,10 +1,9 @@
  body{
      background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1548212360/iphoneX_copy.png') center fixed no-repeat; 
-    height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 10vh;
+    padding: 55px;
     
     
 }
@@ -12,12 +11,16 @@ img{
     visibility: hidden;
     align-content: center;
 }
-.border {
+.container{
+    margin: 0 auto;
+}
+.phone-container {
     background-color: black;
     height: 550px;
-    width: 280px;
-    margin-top: -8px;
-    margin-left: 38.75vw;
+    width: 287px;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
     text-align: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -77,11 +80,13 @@ p{
   and (min-device-width: 320px) 
   and (max-device-width: 560px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-.border{
-    height: 0;
-    width: 0;
+.phone-container{
+     height: 0;
+    width: 0; 
+    background-color: none;
 }
-p{
+p{  
+    width: 100%;
     font-size: 40px;
     font-family: 'Indie Flower', cursive;
 }
@@ -135,9 +140,8 @@ p{
     .container{
         margin-left: auto;
         margin-right: auto;
-        /* width:20vw; */
         text-align: center;
-        margin-top: 10vh;
+       width: 100%
     }
 }
 @keyframes loop-background { 
