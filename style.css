@@ -1,9 +1,9 @@
  body{
      background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1548212360/iphoneX_copy.png') center fixed no-repeat; 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
-    padding: 55px;
+    height: 97vh;
     
     
 }
@@ -13,15 +13,23 @@ img{
 }
 .container{
     margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    
 }
 .phone-container {
     background-color: black;
-    height: 550px;
+    height: 555px;
     width: 287px;
     margin: 0 auto;
+    top: 0;
+    bottom: 0;
+
+    /* display: flex;  */
+    /* align-items: center;
     align-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; 
@@ -85,6 +93,7 @@ p{
     width: 0; 
     background-color: none;
 }
+
 p{  
     width: 100%;
     font-size: 40px;
@@ -94,6 +103,7 @@ p{
     font-size: 35px;
 }
     body{
+       height: auto;
         color: white;
         background: url("https://res.cloudinary.com/dh41vh9dx/image/upload/v1547832923/blue1.jpg") no-repeat center center fixed; 
         background-color: black;
