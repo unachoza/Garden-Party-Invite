@@ -1,7 +1,6 @@
  body{
      background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1549152866/iphoneXaccuratemask.png') center fixed no-repeat; 
     display: flex;
-    /* flex-direction: column; */
     text-align: center;
     height: 97vh;
     
@@ -24,12 +23,6 @@ img{
     margin: 0 auto;
     top: 0;
     bottom: 0;
-
-    /* display: flex;  */
-    /* align-items: center;
-    align-content: center;
-    align-items: center;
-    text-align: center; */
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; 

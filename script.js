@@ -1,7 +1,7 @@
 // alert('let us party')
 
 
-setTimeout(function(){document.getElementById("header").innerHTML="You're invited to this party!";}, 8500);
+setTimeout(function(){document.getElementById("header").innerHTML="You're invited to this Garden Party!";}, 8500);
 // clearTimeout(function(){document.getElementById("header").innerHTML="You're invited to this party!";}, 1000);
 setTimeout(function() {document.getElementById('header').style.display='none'}, 10000)
 // setTimeout(function() {document.getElementById('details').innerHTML='It\'s a Garden Party theme'}, 10000)
